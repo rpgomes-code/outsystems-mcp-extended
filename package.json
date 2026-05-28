@@ -41,10 +41,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/outsystems-mcp-extended.git"
+    "url": "git+https://github.com/rpgomes-code/outsystems-mcp-extended.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/outsystems-mcp-extended/issues"
+    "url": "https://github.com/rpgomes-code/outsystems-mcp-extended/issues"
   },
-  "homepage": "https://github.com/your-org/outsystems-mcp-extended#readme"
+  "homepage": "https://github.com/rpgomes-code/outsystems-mcp-extended#readme"
 }
