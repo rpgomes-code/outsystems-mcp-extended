@@ -1,0 +1,14 @@
+# Force LF line endings for all text files in the repository.
+# Prevents CRLF/LF churn when contributors are on different platforms.
+* text=auto eol=lf
+
+# Mark known binary types explicitly so git doesn't try line-ending conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary

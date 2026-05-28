@@ -1,0 +1,50 @@
+{
+  "name": "outsystems-mcp-extended",
+  "version": "1.0.0",
+  "description": "Community MCP server that fills the gaps in the official OutSystems ODC MCP. Adds Asset Repository, Asset Configurations, Code Quality, Dependency Management, Portfolio, Native Mobile Build, UAM reads, and Environment Configuration tools — by wrapping the public ODC REST APIs directly.",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "outsystems-mcp-extended": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "outsystems",
+    "odc",
+    "outsystems-developer-cloud",
+    "mcp",
+    "model-context-protocol",
+    "rest-api",
+    "code-quality",
+    "dependency-management",
+    "native-mobile-build"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/outsystems-mcp-extended.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/outsystems-mcp-extended/issues"
+  },
+  "homepage": "https://github.com/your-org/outsystems-mcp-extended#readme"
+}
